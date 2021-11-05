@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+header {
+    width: 100%;
+    height: 96px;
+}
+
+.headertop {
+    width: 100%;
+    height: 40px;
+    background-color: #161616;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.caixaicones {
+    margin-right: 32px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.usuario {
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.usuario:hover .usuariohover {
+    cursor: pointer;
+    fill: white;
+}
+
+.interrogacao {
+    margin-left: 24px;
+    width: 18px;
+    height: 18px;
+    fill: #7c7c7c;
+}
+
+.interrogacao:hover {
+    cursor: pointer;
+    fill: white;
+}
+
+.ea {
+    width: 40px;
+    height: 40px;
+    fill: #7c7c7c;
+    margin-left: 30px;
+    margin-right: 32px;
+}
+
+.ea:hover {
+    cursor: pointer;
+    fill: white;
+}
+
+.headerbottom {
+    width: 100%;
+    height: 56px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.caixalogo {
+    margin-left: 48px;
+    margin-right: 36px;
+}
+
+.logo {
+    height: 32px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.span {
+    margin-left: 20px;
+    color: #f3f3f3;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.span:hover {
+    cursor: pointer;
+    color: rgb(127, 80, 180);
+    transition: all 0.2s;
+}
+
+.caixajogar {
+    width: 176.5px;
+    height: 44px;
+    background-color: rgb(127, 80, 180);
+    position: absolute;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixajogar:hover {
+    cursor: pointer;
+}
+
+.jogue {
+    color: white;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.traco {
+    margin-left: 5px;
+    width: 26px;
+    height: 19px;
+}
+
+.caixajogar:hover .baixo {
+    -ms-transform: rotate(0deg);
+    transform: rotate(180deg);
+    transition: all 0.3s;
+}
