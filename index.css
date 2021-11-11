@@ -157,5 +157,161 @@ h2 {
     color: white;
     font-size: 19px;
     font-weight: 100;
-    font-family:;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 21px;
+    width: 100%;
+    justify-content: center;
+}
+
+.img_banner {
+    transition: all 0.1s;
+}
+
+.img_banner:hover {
+    transition: all 0.1s;
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.containerzumbis {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.zumbisdevolta {
+    width: 80%;
+    display: flex;
+}
+
+.divisao50 {
+    width: 50%;
+}
+
+.zumbisdevolta50 {
+    width: 100%;
+    padding-left: 18%;
+    margin-right: 28px;
+    padding-top: 10%;
+
+}
+
+.zumbisdevolta50_1 {
+    width: 100%;
+    padding-right: 18%;
+    padding-top: 10%;
+}
+
+.imgmaozumbi {
+    width: 100%;
+}
+
+.h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    margin-bottom: 21px;
+}
+
+.textozumbis {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 16px 0px;
+    line-height: 27px;
+    font-size: 17.8px;
+    color: #505050;
+}
+
+.containermain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.containercentro {
+    width: 80%;
+}
+
+.containernovidades {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.i {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.caixas {
+    width: 100%;
+    margin-top: 56px;
+    display: flex;
+}
+
+.caixinha {
+    width: 33.33%;
+    padding: 0px 8px;
+}
+
+.caixinhainha {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 24px;
+}
+
+.caixinhainhainha {
+    display: flex;
+    flex-direction: row;
+}
+
+.spannovidades {
+    margin-right: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+.f {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6px;
+    font-size: 22px;
+}
+
+.descricaonovidades {
+    margin-top: 6px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    color: #505050;
+    font-weight: 400;
+}
+
+.containerbotaonoticias {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixanoticias {
+    height: 44px;
+    background-color: rgb(127, 80, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 3px;
+    transition: all 0.1s;
+}
+
+.caixanoticias:hover {
+    transition: all 0.1s;
+    transform: scale(1.01);
+    cursor: pointer;
 }
