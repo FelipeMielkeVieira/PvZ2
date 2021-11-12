@@ -315,3 +315,133 @@ h2 {
     transform: scale(1.01);
     cursor: pointer;
 }
+
+.footertop {
+    padding: 12px 76px;
+    background-color: #252525;
+    color: #161616;
+    font-size: 18px;
+}
+
+.footerdescricao {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+    margin: 0px 38.5px;
+    border-bottom: 1px solid #595959;
+}
+
+.links {
+    margin-top: 11px;
+    display: flex;
+}
+
+.caixalink {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.footerlink {
+    transition: all 0.2s;
+    text-decoration: none;
+    color: #a3a3a3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;   
+    margin: 8px 40px 5px 0px;
+    margin-top: 59px;
+}
+
+.footerlink:hover {
+    transition: all 0.2s;
+    color: rgb(127, 80, 180);
+}
+
+.conversa {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f7f7f7;
+    margin: 24px 0px 9px;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+}
+
+.svgfooter:hover {
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: scale(1.25);
+}
+
+.popcap {
+    margin: 28px 0px 56px 38.5px;
+}
+
+.footerbottom {
+    padding: 15px 93px 40px;
+    background-color: #161616;
+}
+
+.footerea {
+    display: flex;
+    max-width: 1120px;
+    margin: auto;
+}
+
+.imgea {
+    width: 49px;
+    height: 117px;
+}
+
+.container_procurejogos {
+    margin-left: 32px;
+}
+
+.procurejogos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.linksbottom {
+    display: flex;
+}
+
+.linkscaixabottom {
+    margin-right: 48px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.spanbottom {
+    color: #a3a3a3;
+    line-height: 112%;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    font-weight: 600;
+}
+
+.brasil {
+    background-color: transparent;
+    padding: 8px 24px;
+    border: 2px solid #585858;
+    border-radius: 3px;
+}
+
+.divisaobutton {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#brasil {
+    margin: 0px 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 94px;
+    text-align: start;
+}
